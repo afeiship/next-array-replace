@@ -30,6 +30,7 @@ describe('next/replace', function () {
     var str = '2017-10-19T02:10:42.903Z';
     var res = nx.replace( str, arr);
 
+    console.log(res);
     console.log(res == '2017/10/19 02:10:42.903');
 
     //todo: WHY????
