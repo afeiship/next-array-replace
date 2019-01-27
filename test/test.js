@@ -10,7 +10,7 @@ describe('next/replace', function() {
     expect(res).toBe('AAA-bbb-1234 world Fei!');
   });
 
-  it('nx.replace', function() {
+  test('nx.replace', function() {
     var REPLACE_RE1 = /[A-Z]/g;
     var REPLACE_RE2 = /-/g;
     var DATE_SPACE = ' ';
