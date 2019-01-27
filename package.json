@@ -1,6 +1,6 @@
 {
   "name": "next-replace",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Multiple replace for object.",
   "homepage": "https://github.com/afeiship/next-replace",
   "author": {
@@ -8,7 +8,8 @@
     "email": "1290657123@qq.com"
   },
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "test": "jest"
   },
   "main": "dist/next-replace.js",
   "license": "MIT",
@@ -18,10 +19,8 @@
     "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^1.2.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
     "gulp-size": "^2.1.0",
     "gulp-uglify": "^2.1.2",
-    "mocha": "^4.0.1",
     "yargs": "^4.7.1"
   },
   "dependencies": {
