@@ -13,7 +13,7 @@ var arr= [
   ['hello','world']
 ];
 var str = 'aaa-bbb-1234 hello Fei!';
-var res = nx.replace( str, arr);
+var res = nx.arrayReplace( str, arr);
 
 // AAA-bbb-1234 world Fei!
 ```
