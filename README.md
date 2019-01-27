@@ -1,9 +1,9 @@
-# next-replace
+# next-array-replace
 > Multiple replace for object.
 
 ## install:
 ```bash
-npm install -S afeiship/next-replace --registry=https://registry.npm.taobao.org
+npm install -S afeiship/next-array-replace --registry=https://registry.npm.taobao.org
 ```
 
 ## usage:

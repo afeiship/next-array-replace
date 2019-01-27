@@ -1,11 +1,11 @@
 var nx = require('next-js-core2');
-require('../src/next-replace');
+require('../src/next-array-replace');
 
-describe('next/replace', function() {
-  test('nx.replace', function() {
+describe('next/arrayReplace', function() {
+  test('nx.arrayReplace', function() {
     var arr = [[/a/g, 'A'], ['hello', 'world']];
     var str = 'aaa-bbb-1234 hello Fei!';
-    var res = nx.replace(str, arr);
+    var res = nx.arrayReplace(str, arr);
 
     expect(res).toBe('AAA-bbb-1234 world Fei!');
   });
@@ -22,7 +22,7 @@ describe('next/replace', function() {
     ];
 
     var str = '2017-10-19T02:10:42.903Z';
-    var res = nx.replace(str, arr);
+    var res = nx.arrayReplace(str, arr);
 
     expect(res).toBe('2017/10/19 02:10:42.903 ');
   });

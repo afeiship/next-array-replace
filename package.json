@@ -1,8 +1,8 @@
 {
-  "name": "next-replace",
+  "name": "next-array-replace",
   "version": "1.0.0",
   "description": "Multiple replace for object.",
-  "homepage": "https://github.com/afeiship/next-replace",
+  "homepage": "https://github.com/afeiship/next-array-replace",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -11,7 +11,7 @@
     "build": "gulp",
     "test": "jest"
   },
-  "main": "dist/next-replace.js",
+  "main": "dist/next-array-replace.js",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",
