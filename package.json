@@ -21,6 +21,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-size": "^2.1.0",
     "gulp-uglify": "^2.1.2",
+    "jest": "^24.0.0",
     "yargs": "^4.7.1"
   },
   "dependencies": {
