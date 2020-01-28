@@ -35,4 +35,3 @@ describe('Basic test', function() {
     );
   });
 });
-© 2020 GitHub, Inc.
