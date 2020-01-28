@@ -1,19 +1,21 @@
 # next-array-replace
-> Multiple replace for object.
+> Multiple replace for array.
 
-## install:
+## installation
 ```bash
-npm install -S afeiship/next-array-replace --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-array-replace
 ```
 
-## usage:
+## usage
 ```js
-var arr= [
+import '@feizheng/next-array-replace';
+
+const arr= [
   [/a/g,'A'],
   ['hello','world']
 ];
-var str = 'aaa-bbb-1234 hello Fei!';
-var res = nx.arrayReplace( str, arr);
+const str = 'aaa-bbb-1234 hello Fei!';
+const res = nx.arrayReplace( str, arr);
 
 // AAA-bbb-1234 world Fei!
 ```

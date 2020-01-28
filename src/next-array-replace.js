@@ -1,9 +1,9 @@
 (function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+  var nx = global.nx || require('@feizheng/next-js-core2');
 
   nx.arrayReplace = function(inString, inArray) {
-    if (!inString) return;
+    if (!inString) return inString;
     for (var i = 0; i < inArray.length; i++) {
       inString = inString.replace(inArray[i][0], inArray[i][1]);
     }

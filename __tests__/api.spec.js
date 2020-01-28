@@ -1,4 +1,4 @@
-var nx = require('next-js-core2');
+const nx = require('@feizheng/next-js-core2');
 require('../src/next-array-replace');
 
 describe('Basic test', function() {
@@ -35,3 +35,4 @@ describe('Basic test', function() {
     );
   });
 });
+© 2020 GitHub, Inc.
