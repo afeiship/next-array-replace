@@ -13,9 +13,16 @@ npm install -S @jswork/next-array-replace
 
 ## usage
 ```js
-import '@jswork/next-array-replace';
+import '@feizheng/next-array-replace';
 
-//DOCS here!
+const arr= [
+  [/a/g,'A'],
+  ['hello','world']
+];
+const str = 'aaa-bbb-1234 hello Fei!';
+const res = nx.arrayReplace( str, arr);
+
+// AAA-bbb-1234 world Fei!
 ```
 
 ## license
