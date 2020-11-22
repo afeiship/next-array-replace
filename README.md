@@ -13,7 +13,7 @@ npm install -S @jswork/next-array-replace
 
 ## usage
 ```js
-import '@feizheng/next-array-replace';
+import '@jswork/next-array-replace';
 
 const arr= [
   [/a/g,'A'],
